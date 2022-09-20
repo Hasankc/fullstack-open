@@ -8,9 +8,9 @@ const Content = (props) => {
   return (
     <div>
       <Part content={props.content[0].name} exercises={props.content[0].exercises} />
-      <Part content ={props.content[1].name} exercises={props.content[1].exercises}/>
-      <Part content ={props.content[2].name} exercises={props.content[2].exercises}/>
-      
+      <Part content={props.content[1].name} exercises={props.content[1].exercises} />
+      <Part content={props.content[2].name} exercises={props.content[2].exercises} />
+
     </div>
   )
 }
